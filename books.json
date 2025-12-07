@@ -41,6 +41,62 @@
         "image": "covers/orbital_harvey.jpg",
         "notes": "Bought as beach read but I couldn't force myself to finish it",
         "completed": false
+      },
+      {
+        "title": "Hands-On Large Language Models: Language Understanding and Generation",
+        "author": "Jay Alammar",
+        "url": "https://www.goodreads.com/book/show/210408850-hands-on-large-language-models",
+        "image": "covers/hands_on_large_language_models_alammar.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "Blindsight (Firefall, #1)",
+        "author": "Peter Watts",
+        "url": "https://www.goodreads.com/book/show/48484.Blindsight",
+        "image": "covers/blindsight_firefall_1_watts.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "Echopraxia (Firefall, #2)",
+        "author": "Peter Watts",
+        "url": "https://www.goodreads.com/book/show/18490708-echopraxia",
+        "image": "covers/echopraxia_firefall_2_watts.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "L'eroe imperfetto",
+        "author": "Wu Ming 4",
+        "url": "https://www.goodreads.com/book/show/9711031-l-eroe-imperfetto",
+        "image": "covers/l_eroe_imperfetto_4.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "Anxious People",
+        "author": "Fredrik Backman",
+        "url": "https://www.goodreads.com/book/show/49127718-anxious-people",
+        "image": "covers/anxious_people_backman.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "The Hundred-Page Language Models Book: hands-on with PyTorch (The Hundred-Page Books)",
+        "author": "Andriy Burkov",
+        "url": "https://www.goodreads.com/book/show/223643924-the-hundred-page-language-models-book",
+        "image": "covers/the_hundred_page_language_mode_burkov.jpg",
+        "notes": "",
+        "completed": false
+      },
+      {
+        "title": "Power: Why Some People Have it and Others Don't",
+        "author": "Jeffrey Pfeffer",
+        "url": "https://www.goodreads.com/book/show/8562119-power",
+        "image": "covers/power_why_some_people_have_it_pfeffer.jpg",
+        "notes": "",
+        "completed": false
       }
     ]
   },
@@ -86,6 +142,78 @@
         "image": "covers/unsong_alexander.jpg",
         "notes": "What a funny and scholarly book!",
         "completed": true
+      },
+      {
+        "title": "The Staff Engineer's Path: A Guide for Individual Contributors Navigating Growth and Change",
+        "author": "Tanya Reilly",
+        "url": "https://www.goodreads.com/book/show/61058107-the-staff-engineer-s-path",
+        "image": "covers/the_staff_engineer_s_path_a_g_reilly.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "Fluent Python: Clear, Concise, and Effective Programming",
+        "author": "Luciano Ramalho",
+        "url": "https://www.goodreads.com/book/show/22800567-fluent-python",
+        "image": "covers/fluent_python_clear_concise_ramalho.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "What's Our Problem?: A Self-Help Book for Societies",
+        "author": "Tim Urban",
+        "url": "https://www.goodreads.com/book/show/102146148-what-s-our-problem",
+        "image": "covers/what_s_our_problem_a_self_he_urban.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "A Beginner's Guide to Dying",
+        "author": "Simon Boas",
+        "url": "https://www.goodreads.com/book/show/220552368-a-beginner-s-guide-to-dying",
+        "image": "covers/a_beginner_s_guide_to_dying_boas.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "Rot: An Imperial History of the Irish Famine",
+        "author": "Padraic X. Scanlan",
+        "url": "https://www.goodreads.com/book/show/215749903-rot",
+        "image": "covers/rot_an_imperial_history_of_th_scanlan.jpg",
+        "notes": "",
+        "completed": false
+      },
+      {
+        "title": "Painting As a Pastime",
+        "author": "Winston S. Churchill",
+        "url": "https://www.goodreads.com/book/show/3054673-painting-as-a-pastime",
+        "image": "covers/painting_as_a_pastime_churchill.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "The Collapse of Complex Societies",
+        "author": "Joseph A. Tainter",
+        "url": "https://www.goodreads.com/book/show/477.The_Collapse_of_Complex_Societies",
+        "image": "covers/the_collapse_of_complex_societ_tainter.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "The Perfect Run",
+        "author": "Maxime J. Durand",
+        "url": "https://www.goodreads.com/book/show/57065516-the-perfect-run",
+        "image": "covers/the_perfect_run_durand.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "Architecture Patterns with Python: Enabling Test-Driven Development, Domain-Driven Design, and Event-Driven Microservices",
+        "author": "Harry Percival",
+        "url": "https://www.goodreads.com/book/show/50083115-architecture-patterns-with-python",
+        "image": "covers/architecture_patterns_with_pyt_percival.jpg",
+        "notes": "",
+        "completed": true
       }
     ]
   },
@@ -114,6 +242,54 @@
         "url": "https://www.goodreads.com/book/show/58661468-crafting-interpreters",
         "image": "covers/crafting_interpreters_nystrom.jpg",
         "notes": "Amazing but had to drop it",
+        "completed": false
+      },
+      {
+        "title": "Il primo libro di sociologia dei consumi (Italian Edition)",
+        "author": "Vanni Codeluppi",
+        "url": "https://www.goodreads.com/book/show/219801559-il-primo-libro-di-sociologia-dei-consumi",
+        "image": "covers/il_primo_libro_di_sociologia_d_codeluppi.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "The Knowledge: How to Rebuild Our World from Scratch",
+        "author": "Lewis Dartnell",
+        "url": "https://www.goodreads.com/book/show/18114087-the-knowledge",
+        "image": "covers/the_knowledge_how_to_rebuild_dartnell.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "Ideas: A History of Thought and Invention, from Fire to Freud",
+        "author": "Peter Watson",
+        "url": "https://www.goodreads.com/book/show/408204.Ideas",
+        "image": "covers/ideas_a_history_of_thought_an_watson.jpg",
+        "notes": "",
+        "completed": false
+      },
+      {
+        "title": "Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed",
+        "author": "James C. Scott",
+        "url": "https://www.goodreads.com/book/show/20186.Seeing_Like_a_State",
+        "image": "covers/seeing_like_a_state_how_certa_scott.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "The Selfish Gene",
+        "author": "Richard Dawkins",
+        "url": "https://www.goodreads.com/book/show/29807115-the-selfish-gene",
+        "image": "covers/the_selfish_gene_dawkins.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "The Ministry for the Future",
+        "author": "Kim Stanley Robinson",
+        "url": "https://www.goodreads.com/book/show/55533938-the-ministry-for-the-future",
+        "image": "covers/the_ministry_for_the_future_robinson.jpg",
+        "notes": "",
         "completed": false
       }
     ]
@@ -144,6 +320,43 @@
         "image": "covers/artificial_intelligence_a_mod_russell.jpg",
         "notes": "Reference book, read selected chapters on search and ML.",
         "completed": false
+      },
+      {
+        "title": "Mother of Learning: ARC 1",
+        "author": "Domagoj Kurmaić",
+        "url": "https://www.goodreads.com/book/show/59661342-mother-of-learning",
+        "image": "covers/mother_of_learning_arc_1_kurmaić.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "How the World Really Works: The Science Behind How We Got Here and Where We're Going",
+        "author": "Vaclav Smil",
+        "url": "https://www.goodreads.com/book/show/58784471-how-the-world-really-works",
+        "image": "covers/how_the_world_really_works_th_smil.jpg",
+        "notes": "",
+        "completed": true
+      }
+    ]
+  },
+  {
+    "year": "2021",
+    "books": [
+      {
+        "title": "Unsouled (Cradle, #1)",
+        "author": "Will Wight",
+        "url": "https://www.goodreads.com/book/show/30558257-unsouled",
+        "image": "covers/unsouled_cradle_1_wight.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values (Phaedrus, #1)",
+        "author": "Robert M. Pirsig",
+        "url": "https://www.goodreads.com/book/show/629.Zen_and_the_Art_of_Motorcycle_Maintenance",
+        "image": "covers/zen_and_the_art_of_motorcycle_pirsig.jpg",
+        "notes": "",
+        "completed": true
       }
     ]
   },
@@ -164,6 +377,30 @@
         "url": "https://www.goodreads.com/book/show/23463279-designing-data-intensive-applications",
         "image": "covers/designing_data_intensive_appli_kleppmann.jpg",
         "notes": "I had to park it and come back to that after a couple of years. Dense but worth it.",
+        "completed": true
+      },
+      {
+        "title": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "url": "https://www.goodreads.com/book/show/44936.Refactoring",
+        "image": "covers/refactoring_improving_the_des_fowler.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "Working Effectively with Legacy Code",
+        "author": "Michael C. Feathers",
+        "url": "https://www.goodreads.com/book/show/44919.Working_Effectively_with_Legacy_Code",
+        "image": "covers/working_effectively_with_legac_feathers.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "Hackers & Painters: Big Ideas from the Computer Age",
+        "author": "Paul    Graham",
+        "url": "https://www.goodreads.com/book/show/41793.Hackers_Painters",
+        "image": "covers/hackers_painters_big_ideas_graham.jpg",
+        "notes": "",
         "completed": true
       }
     ]
@@ -187,13 +424,36 @@
         "notes": "Dense but invaluable reference. The USE method is now part of my debugging toolkit.",
         "completed": true
       },
-
       {
         "title": "Crystal Society (Crystal Trilogy, #1)",
         "author": "Max Harms",
         "url": "https://www.goodreads.com/book/show/28678856-crystal-society",
         "image": "covers/crystal_society_crystal_trilo_harms.jpg",
         "notes": "It was instrumental in understanding how an alien AI could think",
+        "completed": true
+      },
+      {
+        "title": "Elements of Programming Interviews in Python: The Insiders' Guide",
+        "author": "Adnan Aziz",
+        "url": "https://www.goodreads.com/book/show/34791936-elements-of-programming-interviews-in-python",
+        "image": "covers/elements_of_programming_interv_aziz.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "Moral Mazes: The World of Corporate Managers",
+        "author": "Robert Jackall",
+        "url": "https://www.goodreads.com/book/show/279812.Moral_Mazes",
+        "image": "covers/moral_mazes_the_world_of_corp_jackall.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "The Last Ringbearer",
+        "author": "Kirill Yeskov",
+        "url": "https://www.goodreads.com/book/show/10588425-the-last-ring-bearer",
+        "image": "covers/the_last_ringbearer_yeskov.jpg",
+        "notes": "",
         "completed": true
       }
     ]
@@ -215,14 +475,6 @@
         "url": "https://www.goodreads.com/book/show/25744928-deep-work",
         "image": "covers/deep_work_rules_for_focused_s_newport.jpg",
         "notes": "",
-        "completed": true
-      },
-      {
-        "title": "Thinking, Fast and Slow",
-        "author": "Daniel Kahneman",
-        "url": "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow",
-        "image": "covers/thinking_fast_and_slow_kahneman.jpg",
-        "notes": "Mindblowing back then. Years before the replication crisis.",
         "completed": true
       },
       {
@@ -287,18 +539,39 @@
         "completed": true
       },
       {
-        "title": "Harry Potter and the Methods of Rationality",
-        "author": "Eliezer Yudkowsky",
-        "url": "https://www.goodreads.com/book/show/10016013-harry-potter-and-the-methods-of-rationality",
-        "image": "covers/harry_potter_and_the_methods_o_yudkowsky.jpg",
-        "notes": "",
-        "completed": true
-      },
-      {
         "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
         "author": "Robert C. Martin",
         "url": "https://www.goodreads.com/book/show/3735293-clean-code",
         "image": "covers/clean_code_a_handbook_of_agil_martin.jpg",
+        "notes": "",
+        "completed": true
+      }
+    ]
+  },
+  {
+    "year": "2015",
+    "books": [
+      {
+        "title": "The Demon-Haunted World: Science as a Candle in the Dark",
+        "author": "Carl Sagan",
+        "url": "https://www.goodreads.com/book/show/17349.The_Demon_Haunted_World",
+        "image": "covers/the_demon_haunted_world_scien_sagan.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "Ra",
+        "author": "qntm",
+        "url": "https://www.goodreads.com/book/show/57891607-ra",
+        "image": "covers/ra_qntm.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "Fine Structure",
+        "author": "qntm",
+        "url": "https://www.goodreads.com/book/show/57891620-fine-structure",
+        "image": "covers/fine_structure_qntm.jpg",
         "notes": "",
         "completed": true
       }
@@ -316,10 +589,71 @@
         "completed": true
       },
       {
+        "title": "Thinking, Fast and Slow",
+        "author": "Daniel Kahneman",
+        "url": "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow",
+        "image": "covers/thinking_fast_and_slow_kahneman.jpg",
+        "notes": "Mindblowing back then. Years before the replication crisis.",
+        "completed": true
+      },
+      {
+        "title": "So Good They Can't Ignore You: Why Skills Trump Passion in the Quest for Work You Love",
+        "author": "Cal Newport",
+        "url": "https://www.goodreads.com/book/show/13525945-so-good-they-can-t-ignore-you",
+        "image": "covers/so_good_they_can_t_ignore_you_newport.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "Go! More Than a Game",
+        "author": "Peter Shotwell",
+        "url": "https://www.goodreads.com/book/show/677748.Go_More_Than_a_Game",
+        "image": "covers/go_more_than_a_game_shotwell.jpg",
+        "notes": "",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "year": "2013",
+    "books": [
+      {
+        "title": "Thinking and Deciding",
+        "author": "Jonathan Baron",
+        "url": "https://www.goodreads.com/book/show/2466179.Thinking_and_Deciding",
+        "image": "covers/thinking_and_deciding_baron.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
         "title": "Rationality: From AI to Zombies",
         "author": "Eliezer Yudkowsky",
         "url": "https://www.goodreads.com/book/show/25131230-rationality",
         "image": "covers/rationality_from_ai_to_zombie_yudkowsky.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "The Signal and the Noise: Why So Many Predictions Fail—But Some Don't",
+        "author": "Nate Silver",
+        "url": "https://www.goodreads.com/book/show/13588394-the-signal-and-the-noise",
+        "image": "covers/the_signal_and_the_noise_why_silver.jpg",
+        "notes": "",
+        "completed": false
+      },
+      {
+        "title": "HHhH",
+        "author": "Laurent Binet",
+        "url": "https://www.goodreads.com/book/show/7992363-hhhh",
+        "image": "covers/hhhh_binet.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "Worm (Parahumans, #1)",
+        "author": "Wildbow",
+        "url": "https://www.goodreads.com/book/show/18713259-worm",
+        "image": "covers/worm_parahumans_1_wildbow.jpg",
         "notes": "",
         "completed": true
       }
@@ -329,12 +663,28 @@
     "year": "2012",
     "books": [
       {
+        "title": "Harry Potter and the Methods of Rationality",
+        "author": "Eliezer Yudkowsky",
+        "url": "https://www.goodreads.com/book/show/10016013-harry-potter-and-the-methods-of-rationality",
+        "image": "covers/harry_potter_and_the_methods_o_yudkowsky.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
         "title": "Gödel, Escher, Bach: An Eternal Golden Braid",
         "author": "Douglas R. Hofstadter",
         "url": "https://www.goodreads.com/book/show/24113.G_del_Escher_Bach",
         "image": "covers/g_del_escher_bach_an_eterna_hofstadter.jpg",
         "notes": "",
         "completed": true
+      },
+      {
+        "title": "Rational Choice in an Uncertain World: The Psychology of Judgement and Decision Making",
+        "author": "Reid Hastie",
+        "url": "https://www.goodreads.com/book/show/173932.Rational_Choice_in_an_Uncertain_World",
+        "image": "covers/rational_choice_in_an_uncertai_hastie.jpg",
+        "notes": "",
+        "completed": false
       }
     ]
   }
