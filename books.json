@@ -1,0 +1,341 @@
+[
+  {
+    "year": "2025",
+    "books": [
+      {
+        "title": "There Is No Antimemetics Division",
+        "author": "qntm",
+        "url": "https://www.goodreads.com/book/show/54870256-there-is-no-antimemetics-division",
+        "image": "covers/there_is_no_antimemetics_divis_qntm.jpg",
+        "notes": "Christmas present to myself! yahii!",
+        "completed": false
+      },
+      {
+        "title": "Super Supportive",
+        "author": "Sleyca",
+        "image": "covers/super_supportive_sleyca.jpg",
+        "url": "https://www.goodreads.com/book/show/54870256-there-is-no-antimemetics-division",
+        "completed": false,
+        "notes": "Really great characters and amazing worldbuilding!"
+      },
+      {
+        "title": "The Psychology of Money",
+        "author": "Morgan Housel",
+        "url": "https://www.goodreads.com/book/show/41881472-the-psychology-of-money",
+        "image": "covers/the_psychology_of_money_housel.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "Human Compatible: Artificial Intelligence and the Problem of Control",
+        "author": "Stuart Russell",
+        "url": "https://www.goodreads.com/book/show/44767248-human-compatible",
+        "image": "covers/human_compatible_artificial_i_russell.jpg",
+        "notes": "",
+        "completed": false
+      },
+      {
+        "title": "Orbital",
+        "author": "Samantha Harvey",
+        "url": "https://www.goodreads.com/book/show/123136728-orbital",
+        "image": "covers/orbital_harvey.jpg",
+        "notes": "Bought as beach read but I couldn't force myself to finish it",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "year": "2024",
+    "books": [
+      {
+        "title": "The Software Engineer's Guidebook: Navigating senior, tech lead, and staff engineer positions at tech companies and startups",
+        "author": "Gergely  Orosz",
+        "url": "https://www.goodreads.com/book/show/201545491-the-software-engineer-s-guidebook",
+        "image": "covers/the_software_engineer_s_guideb_orosz.jpg",
+        "notes": "I don't recall finding anything particularly novel. It's a great compendium for someone who needs to hear what's written.",
+        "completed": true
+      },
+      {
+        "title": "The Algebra of Wealth: A Simple Formula for Financial Security",
+        "author": "Scott Galloway",
+        "url": "https://www.goodreads.com/book/show/150246211-the-algebra-of-wealth",
+        "image": "covers/the_algebra_of_wealth_a_simpl_galloway.jpg",
+        "notes": "Building wealth, it kind of changed my attitude towards making money.",
+        "completed": true
+      },
+      {
+        "title": "How To Make The Best Coffee At Home",
+        "author": "James Hoffmann",
+        "url": "https://www.goodreads.com/book/show/59228261-how-to-make-the-best-coffee-at-home",
+        "image": "covers/how_to_make_the_best_coffee_at_hoffmann.jpg",
+        "notes": "He's one of the few youtubers that I really enjoy. It helped me grow out of the \"italian way\" of drinking (and making) coffee. I'm glad that I kept my mind open.",
+        "completed": true
+      },
+      {
+        "title": "Religion for Atheists: A Non-Believer's Guide to the Uses of Religion",
+        "author": "Alain de Botton",
+        "url": "https://www.goodreads.com/book/show/12576334-religion-for-atheists",
+        "image": "covers/religion_for_atheists_a_non_b_botton.jpg",
+        "notes": "Started this one, interesting premise about what secular society can learn from religious practices, but it became a bit weird.",
+        "completed": false
+      },
+      {
+        "title": "Unsong",
+        "author": "Scott   Alexander",
+        "url": "https://www.goodreads.com/book/show/28589297-unsong",
+        "image": "covers/unsong_alexander.jpg",
+        "notes": "What a funny and scholarly book!",
+        "completed": true
+      }
+    ]
+  },
+  {
+    "year": "2023",
+    "books": [
+      {
+        "title": "Staff Engineer: Leadership Beyond the Management Track",
+        "author": "Will Larson",
+        "url": "https://www.goodreads.com/book/show/56481725-staff-engineer",
+        "image": "covers/staff_engineer_leadership_bey_larson.jpg",
+        "notes": "Essential reading for IC career growth. The archetypes framework is helpful.",
+        "completed": true
+      },
+      {
+        "title": "Infinite Jest",
+        "author": "David Foster Wallace",
+        "url": "https://www.goodreads.com/book/show/6759.Infinite_Jest",
+        "image": "covers/infinite_jest_wallace.jpg",
+        "notes": "About 400 pages in. The Eschaton scene is incredible.",
+        "completed": false
+      },
+      {
+        "title": "Crafting Interpreters",
+        "author": "Robert Nystrom",
+        "url": "https://www.goodreads.com/book/show/58661468-crafting-interpreters",
+        "image": "covers/crafting_interpreters_nystrom.jpg",
+        "notes": "Amazing but had to drop it",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "year": "2022",
+    "books": [
+      {
+        "title": "Four Thousand Weeks: Time Management for Mortals",
+        "author": "Oliver Burkeman",
+        "url": "https://www.goodreads.com/book/show/54785515-four-thousand-weeks",
+        "image": "covers/four_thousand_weeks_time_mana_burkeman.jpg",
+        "notes": "Changed my relationship with productivity. We don't 'have' time, we are time.",
+        "completed": true
+      },
+      {
+        "title": "Flowers for Algernon",
+        "author": "Daniel Keyes",
+        "url": "https://www.goodreads.com/book/show/18373.Flowers_for_Algernon",
+        "image": "covers/flowers_for_algernon_keyes.jpg",
+        "notes": "Emotionally devastating. The writing style evolution is masterful.",
+        "completed": true
+      },
+      {
+        "title": "Artificial Intelligence: A Modern Approach (Pearson Series in Artifical Intelligence)",
+        "author": "Stuart Russell",
+        "url": "https://www.goodreads.com/book/show/36451668-artificial-intelligence",
+        "image": "covers/artificial_intelligence_a_mod_russell.jpg",
+        "notes": "Reference book, read selected chapters on search and ML.",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "year": "2020",
+    "books": [
+      {
+        "title": "Building Microservices: Designing Fine-Grained Systems",
+        "author": "Sam Newman",
+        "url": "https://www.goodreads.com/book/show/22512931-building-microservices",
+        "image": "covers/building_microservices_design_newman.jpg",
+        "notes": "Solid foundation for distributed systems. Good balance of theory and practice.",
+        "completed": true
+      },
+      {
+        "title": "Designing Data-Intensive Applications",
+        "author": "Martin Kleppmann",
+        "url": "https://www.goodreads.com/book/show/23463279-designing-data-intensive-applications",
+        "image": "covers/designing_data_intensive_appli_kleppmann.jpg",
+        "notes": "I had to park it and come back to that after a couple of years. Dense but worth it.",
+        "completed": true
+      }
+    ]
+  },
+  {
+    "year": "2019",
+    "books": [
+      {
+        "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+        "author": "James Clear",
+        "url": "https://www.goodreads.com/book/show/40121378-atomic-habits",
+        "image": "covers/atomic_habits_an_easy_prove_clear.jpg",
+        "notes": "The 1% improvement compound effect. Identity-based habits stuck with me.",
+        "completed": true
+      },
+      {
+        "title": "Systems Performance: Enterprise and the Cloud",
+        "author": "Brendan Gregg",
+        "url": "https://www.goodreads.com/book/show/218417014-systems-performance",
+        "image": "covers/systems_performance_enterpris_gregg.jpg",
+        "notes": "Dense but invaluable reference. The USE method is now part of my debugging toolkit.",
+        "completed": true
+      },
+
+      {
+        "title": "Crystal Society (Crystal Trilogy, #1)",
+        "author": "Max Harms",
+        "url": "https://www.goodreads.com/book/show/28678856-crystal-society",
+        "image": "covers/crystal_society_crystal_trilo_harms.jpg",
+        "notes": "It was instrumental in understanding how an alien AI could think",
+        "completed": true
+      }
+    ]
+  },
+  {
+    "year": "2018",
+    "books": [
+      {
+        "title": "A Guide to the Good Life: The Ancient Art of Stoic Joy",
+        "author": "William B. Irvine",
+        "url": "https://www.goodreads.com/book/show/5617966-a-guide-to-the-good-life",
+        "image": "covers/a_guide_to_the_good_life_the_irvine.jpg",
+        "notes": "Foundational",
+        "completed": true
+      },
+      {
+        "title": "Deep Work: Rules for Focused Success in a Distracted World",
+        "author": "Cal Newport",
+        "url": "https://www.goodreads.com/book/show/25744928-deep-work",
+        "image": "covers/deep_work_rules_for_focused_s_newport.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "Thinking, Fast and Slow",
+        "author": "Daniel Kahneman",
+        "url": "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow",
+        "image": "covers/thinking_fast_and_slow_kahneman.jpg",
+        "notes": "Mindblowing back then. Years before the replication crisis.",
+        "completed": true
+      },
+      {
+        "title": "Functional and Reactive Domain Modeling",
+        "author": "Debasish Ghosh",
+        "url": "https://www.goodreads.com/book/show/23488413-functional-and-reactive-domain-modeling",
+        "image": "covers/functional_and_reactive_domain_ghosh.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "Java Performance: The Definitive Guide: Getting the Most Out of Your Code",
+        "author": "Scott Oaks",
+        "url": "https://www.goodreads.com/book/show/18774645-java-performance",
+        "image": "covers/java_performance_the_definiti_oaks.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "How to Win Friends & Influence People",
+        "author": "Dale Carnegie",
+        "url": "https://www.goodreads.com/book/show/4865.How_to_Win_Friends_Influence_People",
+        "image": "covers/how_to_win_friends_influence_carnegie.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "Influence: The Psychology of Persuasion",
+        "author": "Robert B. Cialdini",
+        "url": "https://www.goodreads.com/book/show/28815.Influence",
+        "image": "covers/influence_the_psychology_of_p_cialdini.jpg",
+        "notes": "",
+        "completed": true
+      }
+    ]
+  },
+  {
+    "year": "2017",
+    "books": [
+      {
+        "title": "Effective Java",
+        "author": "Joshua Bloch",
+        "url": "https://www.goodreads.com/book/show/34927404-effective-java",
+        "image": "covers/effective_java_bloch.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "Three Worlds Collide",
+        "author": "Eliezer Yudkowsky",
+        "url": "https://www.goodreads.com/book/show/15744759-three-worlds-collide",
+        "image": "covers/three_worlds_collide_yudkowsky.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "Dune (Dune #1)",
+        "author": "Frank Herbert",
+        "url": "https://www.goodreads.com/book/show/44767458-dune",
+        "image": "covers/dune_dune_1_herbert.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "Harry Potter and the Methods of Rationality",
+        "author": "Eliezer Yudkowsky",
+        "url": "https://www.goodreads.com/book/show/10016013-harry-potter-and-the-methods-of-rationality",
+        "image": "covers/harry_potter_and_the_methods_o_yudkowsky.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+        "author": "Robert C. Martin",
+        "url": "https://www.goodreads.com/book/show/3735293-clean-code",
+        "image": "covers/clean_code_a_handbook_of_agil_martin.jpg",
+        "notes": "",
+        "completed": true
+      }
+    ]
+  },
+  {
+    "year": "2014",
+    "books": [
+      {
+        "title": "Superintelligence - Summary: Summary and Analysis of Nick Bostrom's \"Superintelligence: Paths, Dangers, Strategies\"",
+        "author": "Summary Station",
+        "url": "https://www.goodreads.com/book/show/26526042-superintelligence---summary",
+        "image": "covers/superintelligence_summary_s_station.jpg",
+        "notes": "",
+        "completed": true
+      },
+      {
+        "title": "Rationality: From AI to Zombies",
+        "author": "Eliezer Yudkowsky",
+        "url": "https://www.goodreads.com/book/show/25131230-rationality",
+        "image": "covers/rationality_from_ai_to_zombie_yudkowsky.jpg",
+        "notes": "",
+        "completed": true
+      }
+    ]
+  },
+  {
+    "year": "2012",
+    "books": [
+      {
+        "title": "Gödel, Escher, Bach: An Eternal Golden Braid",
+        "author": "Douglas R. Hofstadter",
+        "url": "https://www.goodreads.com/book/show/24113.G_del_Escher_Bach",
+        "image": "covers/g_del_escher_bach_an_eterna_hofstadter.jpg",
+        "notes": "",
+        "completed": true
+      }
+    ]
+  }
+]
