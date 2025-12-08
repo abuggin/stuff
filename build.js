@@ -116,55 +116,54 @@ async function processBooks() {
     const booksData = JSON.parse(fs.readFileSync(BOOKS_FILE, 'utf8'));
     let modified = false;
 
-    for (const yearGroup of booksData) {
-        for (let i = 0; i < yearGroup.books.length; i++) {
-            const book = yearGroup.books[i];
+    for (let i = 0; i < booksData.length; i++) {
+        const book = booksData[i];
 
-            // Skip already enriched books (have title field)
-            if (book.title) {
-                console.log(`Skipping: "${book.title}" (already enriched)`);
-                continue;
-            }
-
-            // This is a query-only entry, needs enrichment
-            if (!book.query) {
-                continue;
-            }
-
-            const info = await queryGoodReadsAPI(book.query);
-
-            if (info) {
-                const imageFilename = generateImageFilename(info.title, info.author);
-                const imagePath = path.join(COVERS_DIR, imageFilename);
-
-                // Download cover if not exists
-                if (fs.existsSync(imagePath)) {
-                    console.log(`  Cover exists`);
-                } else {
-                    try {
-                        console.log(`  Downloading cover...`);
-                        await downloadImage(info.imageUrl, imagePath);
-                        console.log(`  Saved: ${imageFilename}`);
-                    } catch (err) {
-                        console.error(`  Failed to download:`, err.message);
-                    }
-                }
-
-                // Replace query entry with enriched data
-                yearGroup.books[i] = {
-                    title: info.title,
-                    author: info.author,
-                    url: info.url,
-                    image: `covers/${imageFilename}`,
-                    notes: book.notes || '',
-                    completed: book.completed ?? true
-                };
-                modified = true;
-            }
-
-            // Small delay to be nice to the API
-            await new Promise(r => setTimeout(r, 200));
+        // Skip already enriched books (have title field)
+        if (book.title) {
+            console.log(`Skipping: "${book.title}" (already enriched)`);
+            continue;
         }
+
+        // This is a query-only entry, needs enrichment
+        if (!book.query) {
+            continue;
+        }
+
+        const info = await queryGoodReadsAPI(book.query);
+
+        if (info) {
+            const imageFilename = generateImageFilename(info.title, info.author);
+            const imagePath = path.join(COVERS_DIR, imageFilename);
+
+            // Download cover if not exists
+            if (fs.existsSync(imagePath)) {
+                console.log(`  Cover exists`);
+            } else {
+                try {
+                    console.log(`  Downloading cover...`);
+                    await downloadImage(info.imageUrl, imagePath);
+                    console.log(`  Saved: ${imageFilename}`);
+                } catch (err) {
+                    console.error(`  Failed to download:`, err.message);
+                }
+            }
+
+            // Replace query entry with enriched data
+            booksData[i] = {
+                year: book.year,
+                title: info.title,
+                author: info.author,
+                url: info.url,
+                image: `covers/${imageFilename}`,
+                notes: book.notes || '',
+                status: book.status || 'completed'
+            };
+            modified = true;
+        }
+
+        // Small delay to be nice to the API
+        await new Promise(r => setTimeout(r, 200));
     }
 
     if (modified) {

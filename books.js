@@ -1,5 +1,13 @@
 let booksData = [];
 let currentBookIndex = -1;
+let currentFilter = 'all';
+
+const STATUS_LABELS = {
+    'completed': 'Completed',
+    'in-progress': 'In Progress',
+    'not-started': 'Not Started',
+    'abandoned': 'Abandoned'
+};
 
 async function fetchJsonData() {
     try {
@@ -16,7 +24,7 @@ async function fetchJsonData() {
 
 function generateYearSection(year, booksHtml) {
     return `
-        <div class="year-section">
+        <div class="year-section" data-year="${year}">
             <h2>${year}</h2>
             <div class="books-grid">
                 ${booksHtml}
@@ -26,12 +34,47 @@ function generateYearSection(year, booksHtml) {
 }
 
 function generateBookCard(book, index) {
-    const statusClass = book.completed ? 'completed' : 'in-progress';
     return `
-        <div class="book ${statusClass}" data-index="${index}" title="${book.title}">
+        <div class="book ${book.status}" data-index="${index}" data-status="${book.status}" title="${book.title}">
             <div class="book-cover-bg" style="background-image: url('${book.image}')"></div>
         </div>
     `;
+}
+
+function createFilters() {
+    const header = document.querySelector('h1');
+    const filterDiv = document.createElement('div');
+    filterDiv.className = 'filters';
+    filterDiv.innerHTML = `
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="completed">Completed</button>
+        <button class="filter-btn" data-filter="in-progress">In Progress</button>
+        <button class="filter-btn" data-filter="not-started">Not Started</button>
+        <button class="filter-btn" data-filter="abandoned">Abandoned</button>
+    `;
+    header.after(filterDiv);
+
+    filterDiv.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            filterDiv.querySelector('.filter-btn.active').classList.remove('active');
+            btn.classList.add('active');
+            currentFilter = btn.dataset.filter;
+            applyFilter();
+        });
+    });
+}
+
+function applyFilter() {
+    document.querySelectorAll('.book').forEach(bookEl => {
+        const status = bookEl.dataset.status;
+        const shouldShow = currentFilter === 'all' || status === currentFilter;
+
+        if (shouldShow) {
+            bookEl.classList.remove('hidden');
+        } else {
+            bookEl.classList.add('hidden');
+        }
+    });
 }
 
 function createModal() {
@@ -70,8 +113,8 @@ function openModal(index) {
     overlay.querySelector('.modal-author').textContent = book.author;
 
     const status = overlay.querySelector('.modal-status');
-    status.textContent = book.completed ? 'Completed' : 'In Progress';
-    status.className = `modal-status ${book.completed ? 'completed' : 'in-progress'}`;
+    status.textContent = STATUS_LABELS[book.status] || book.status;
+    status.className = `modal-status ${book.status}`;
 
     overlay.querySelector('.modal-notes').textContent = book.notes || '';
     overlay.querySelector('.modal-link').href = book.url;
@@ -83,11 +126,20 @@ function openModal(index) {
 function navigateModal(direction) {
     if (currentBookIndex === -1) return;
 
-    let newIndex = currentBookIndex + direction;
-    if (newIndex < 0) newIndex = booksData.length - 1;
-    if (newIndex >= booksData.length) newIndex = 0;
+    // Get visible book indices based on current filter
+    const visibleIndices = [];
+    document.querySelectorAll('.book:not([style*="display: none"])').forEach(el => {
+        visibleIndices.push(parseInt(el.dataset.index, 10));
+    });
 
-    openModal(newIndex);
+    if (visibleIndices.length === 0) return;
+
+    const currentPos = visibleIndices.indexOf(currentBookIndex);
+    let newPos = currentPos + direction;
+    if (newPos < 0) newPos = visibleIndices.length - 1;
+    if (newPos >= visibleIndices.length) newPos = 0;
+
+    openModal(visibleIndices[newPos]);
 }
 
 function closeModal() {
@@ -101,31 +153,32 @@ async function processJsonData() {
     const jsonData = await fetchJsonData();
     if (!jsonData) return;
 
-    // Flatten all enriched books for indexing (skip query-only entries)
-    jsonData.forEach(yearGroup => {
-        yearGroup.books.forEach(book => {
-            if (book.title) {
-                booksData.push(book);
-            }
-        });
+    // Filter to enriched books only (have title field)
+    const enrichedBooks = jsonData.filter(book => book.title);
+    booksData.push(...enrichedBooks);
+
+    // Group by year
+    const byYear = {};
+    enrichedBooks.forEach((book, index) => {
+        if (!byYear[book.year]) byYear[book.year] = [];
+        byYear[book.year].push({ book, index });
     });
 
+    // Sort years descending
+    const years = Object.keys(byYear).sort((a, b) => parseInt(b) - parseInt(a));
+
     const contentDiv = document.getElementById('content');
-    let globalIndex = 0;
 
-    for (const yearGroup of jsonData) {
-        const enrichedBooks = yearGroup.books.filter(b => b.title);
-        if (enrichedBooks.length === 0) continue;
-
+    for (const year of years) {
         let booksHtml = '';
-        for (const book of enrichedBooks) {
-            booksHtml += generateBookCard(book, globalIndex);
-            globalIndex++;
+        for (const { book, index } of byYear[year]) {
+            booksHtml += generateBookCard(book, index);
         }
-        contentDiv.innerHTML += generateYearSection(yearGroup.year, booksHtml);
+        contentDiv.innerHTML += generateYearSection(year, booksHtml);
     }
 
-    // Create modal
+    // Create filters and modal
+    createFilters();
     createModal();
 
     // Add click handlers

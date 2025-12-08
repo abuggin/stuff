@@ -29,8 +29,10 @@ async function main() {
     const yearInput = await prompt(`Year read [${currentYear}]: `);
     const year = yearInput.trim() || currentYear;
 
-    const completedInput = await prompt('Completed? (Y/n): ');
-    const completed = completedInput.toLowerCase() !== 'n';
+    console.log('Status options: (c)ompleted, (i)n-progress, (n)ot-started, (a)bandoned');
+    const statusInput = await prompt('Status [c]: ');
+    const statusMap = { c: 'completed', i: 'in-progress', n: 'not-started', a: 'abandoned' };
+    const status = statusMap[statusInput.toLowerCase().trim()] || 'completed';
 
     const notes = await prompt('Notes (optional): ');
 
@@ -39,19 +41,11 @@ async function main() {
     // Load existing data
     const booksData = JSON.parse(fs.readFileSync(BOOKS_FILE, 'utf8'));
 
-    // Find or create year group
-    let yearGroup = booksData.find(g => g.year === year.trim());
-    if (!yearGroup) {
-        yearGroup = { year: year.trim(), books: [] };
-        booksData.push(yearGroup);
-        // Sort by year descending
-        booksData.sort((a, b) => parseInt(b.year) - parseInt(a.year));
-    }
-
-    // Add the book
-    yearGroup.books.push({
+    // Add the book (at the beginning for newest first)
+    booksData.unshift({
+        year: year.trim(),
         query: query.trim(),
-        completed,
+        status,
         notes: notes.trim()
     });
 
